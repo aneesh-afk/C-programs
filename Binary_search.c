@@ -17,7 +17,7 @@ printf("Enter the number to be searched\n");
 scanf("%d",&n);
 Bubble(arr,Size);
 int index=Search(arr,Size,n);
-printf("The element it can be found is at %d\n",index);
+printf("The memory it can be found is at %d\n",index);
 return 0;
 }
 
